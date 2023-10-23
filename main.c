@@ -1,5 +1,4 @@
 #include "monty.h"
-int main stack_t *head = NULL;
 
 
 /**
@@ -11,6 +10,8 @@ int main stack_t *head = NULL;
 
 int main(int argc, char *argv[])
 {
+	stack_t *head = NULL;
+
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
